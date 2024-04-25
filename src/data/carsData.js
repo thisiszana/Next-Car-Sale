@@ -183,19 +183,6 @@ const carsData = [
     category: "Sports",
   },
   {
-    id: 14,
-    name: "Toyota",
-    year: "2024",
-    model: "Prius",
-    distance: "50000",
-    location: "Tokyo, Japan",
-    price: 30000,
-    description:
-      "The Toyota Prius is a popular hybrid car known for its fuel efficiency. It offers a comfortable ride and spacious interior.",
-    image: "/images/toyota.jpg",
-    category: "Hybrid",
-  },
-  {
     id: 15,
     name: "BMW",
     year: "2024",
@@ -330,7 +317,7 @@ const carsData = [
     year: 2024,
     name: "Ferrari",
     model: "SF90 Stradale",
-    distance: "20 miles (Electric Range), 400 miles (Total Range)",
+    distance: "400 miles (Total Range)",
     location: "Italy",
     price: 625000,
     description:
@@ -649,6 +636,19 @@ const carsData = [
       "The Peugeot 206 SD XT is a sedan version of the popular Peugeot 206, produced in Iran with a focus on practicality and affordability.",
     image: "/images/206sd.jpg",
     category: "Sedan",
+  },
+  {
+    id: 50,
+    name: "Toyota",
+    year: "2024",
+    model: "Prius",
+    distance: "50000",
+    location: "Tokyo, Japan",
+    price: 30000,
+    description:
+      "The Toyota Prius is a popular hybrid car known for its fuel efficiency. It offers a comfortable ride and spacious interior.",
+    image: "/images/toyota.jpg",
+    category: "Hybrid",
   },
 ];
 
