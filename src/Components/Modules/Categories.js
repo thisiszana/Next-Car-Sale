@@ -35,7 +35,7 @@ function Categories() {
       </Link>
       <Link href={`/categories/electric`}>
         <div>
-          <p>electric</p>
+          <p>Electric</p>
           <img src="/images/elocar.png" />
         </div>
       </Link>

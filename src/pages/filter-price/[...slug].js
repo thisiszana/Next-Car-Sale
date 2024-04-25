@@ -1,7 +1,8 @@
 import CategoriList from "@/Components/Modules/CategoriList";
 import carsData from "@/data/carsData";
 import { useRouter } from "next/router";
-import React from "react";
+
+import toast, { Toaster } from "react-hot-toast";
 
 function FilteredPrice() {
   const router = useRouter();
@@ -9,9 +10,14 @@ function FilteredPrice() {
 
   const filteredData = carsData.filter((i) => i.price > min && i.price < max);
 
-  if (!filteredData.length) return <h3>Not found</h3>;
+  if (!filteredData.length) return toast.error("Not Found");
 
-  return <CategoriList data={filteredData} />;
+  return (
+    <>
+      <Toaster position="top-center" />
+      <CategoriList data={filteredData} />
+    </>
+  );
 }
 
 export default FilteredPrice;
