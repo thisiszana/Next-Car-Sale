@@ -1,11 +1,13 @@
 import CarsPage from "@/Components/Template/CarsPage.js";
 import Categories from "@/Components/Modules/Categories.js";
 import carsData from "../../data/carsData.js";
+import SearchBar from "@/Components/Modules/SearchBar.js";
 
 function CarsDetails() {
   return (
     <div>
-      <Categories/>
+      <SearchBar />
+      <Categories />
       <CarsPage data={carsData} />
     </div>
   );
