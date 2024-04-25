@@ -167,7 +167,7 @@ const carsData = [
     description:
       "The Tesla Model S is an all-electric luxury sedan. It comes with advanced features such as Autopilot for semi-autonomous driving and a large touchscreen infotainment system.",
     image: "/images/Tesla.jpg",
-    category: "Electric",
+    category: "electric",
   },
   {
     id: 14,
@@ -180,7 +180,7 @@ const carsData = [
     description:
       "The Porsche 911 is a classic sports car known for its performance and design. It offers a perfect blend of agility, speed, and luxury.",
     image: "/images/porsche.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 15,
@@ -193,7 +193,7 @@ const carsData = [
     description:
       "The BMW i3 is a compact electric car with a distinctive design. It offers nimble handling and a futuristic interior.",
     image: "/images/bmwi3.jpg",
-    category: "Electric",
+    category: "electric",
   },
   {
     id: 16,
@@ -206,7 +206,7 @@ const carsData = [
     description:
       "The Audi e-tron is a premium electric SUV with advanced technology. It offers a luxurious cabin and smooth ride.",
     image: "/images/audi.jpg",
-    category: "Electric",
+    category: "electric",
   },
   {
     id: 17,
@@ -219,7 +219,7 @@ const carsData = [
     description:
       "The Chevrolet Camaro is an iconic American muscle car known for its powerful performance and aggressive styling.",
     image: "/images/chevrolet.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 18,
@@ -232,7 +232,7 @@ const carsData = [
     description:
       "The Ford Mustang Mach-E is an all-electric SUV inspired by the classic Mustang. It offers sporty performance and modern features.",
     image: "/images/ford.jpg",
-    category: "Electric",
+    category: "electric",
   },
   {
     id: 19,
@@ -245,7 +245,7 @@ const carsData = [
     description:
       "The Honda Accord Hybrid is a midsize sedan known for its fuel efficiency and reliability. It offers a spacious interior and smooth ride.",
     image: "/images/honda.jpg",
-    category: "Hybrid",
+    category: "hybrid",
   },
   {
     id: 20,
@@ -258,7 +258,7 @@ const carsData = [
     description:
       "The Mercedes-Benz EQS is a luxurious all-electric sedan. It offers cutting-edge technology, a spacious interior, and a smooth, quiet ride.",
     image: "/images/benz.jpg",
-    category: "Electric",
+    category: "electric",
   },
   {
     id: 21,
@@ -271,7 +271,7 @@ const carsData = [
     description:
       "The Lamborghini Huracan EVO is an exotic sports car with breathtaking performance and a striking design. It offers exhilarating acceleration and precise handling.",
     image: "/images/lambo1.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 22,
@@ -284,7 +284,7 @@ const carsData = [
     description:
       "The Tesla Model S Plaid is an all-electric luxury sedan known for its incredible acceleration and long-range capabilities.",
     image: "/images/tesla2.jpg",
-    category: "Electric",
+    category: "electric",
   },
   {
     id: 23,
@@ -297,7 +297,7 @@ const carsData = [
     description:
       "The Porsche 911 Turbo S is a high-performance sports car renowned for its iconic design and impressive speed.",
     image: "/images/porsche2.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 24,
@@ -310,7 +310,7 @@ const carsData = [
     description:
       "The Lamborghini Aventador SVJ is a limited-edition supercar with breathtaking performance and cutting-edge technology.",
     image: "/images/lambo4.jpg",
-    category: "Exotic",
+    category: "sport",
   },
   {
     id: 25,
@@ -323,7 +323,7 @@ const carsData = [
     description:
       "The Ferrari SF90 Stradale is a plug-in hybrid supercar that combines electrifying performance with Italian craftsmanship.",
     image: "/images/ferrari2.jpg",
-    category: "Hybrid",
+    category: "hybrid",
   },
   {
     id: 26,
@@ -336,7 +336,7 @@ const carsData = [
     description:
       "The Bugatti Chiron Super Sport 300+ is a hypercar that pushes the boundaries of speed and engineering excellence.",
     image: "/images/buggatini1.jpg",
-    category: "Hypercar",
+    category: "sport",
   },
   {
     id: 27,
@@ -349,7 +349,7 @@ const carsData = [
     description:
       "The McLaren 765LT is a track-focused supercar with mind-blowing performance and aerodynamic design.",
     image: "/images/mclaren.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 28,
@@ -362,7 +362,7 @@ const carsData = [
     description:
       "The Aston Martin DBS Superleggera is a grand tourer with exquisite styling and immense power.",
     image: "/images/auston.jpg",
-    category: "Grand Tourer",
+    category: "sport",
   },
   {
     id: 29,
@@ -375,7 +375,7 @@ const carsData = [
     description:
       "The Rolls-Royce Phantom is the pinnacle of luxury, offering unparalleled comfort and craftsmanship.",
     image: "/images/roulse1.jpg",
-    category: "Luxury",
+    category: "sport",
   },
   {
     id: 30,
@@ -388,7 +388,7 @@ const carsData = [
     description:
       "The Mercedes-Benz S-Class is a luxury sedan known for its advanced technology and unmatched comfort.",
     image: "/images/benz4.jpg",
-    category: "Luxury",
+    category: "sport",
   },
   {
     id: 31,
@@ -401,7 +401,7 @@ const carsData = [
     description:
       "The Audi RS e-tron GT is an all-electric grand tourer that delivers exhilarating performance and refined luxury.",
     image: "/images/audi3.jpg",
-    category: "Electric",
+    category: "electric",
   },
   {
     id: 32,
@@ -414,7 +414,7 @@ const carsData = [
     description:
       "The BMW M5 Competition is a high-performance sedan that blends luxury with thrilling driving dynamics.",
     image: "/images/bm3.jpg",
-    category: "Performance",
+    category: "sedan",
   },
   {
     id: 33,
@@ -427,7 +427,7 @@ const carsData = [
     description:
       "The Lexus LC 500 is a luxury coupe known for its striking design and refined performance.",
     image: "/images/lexus.jpg",
-    category: "Luxury",
+    category: "sport",
   },
   {
     id: 34,
@@ -440,7 +440,7 @@ const carsData = [
     description:
       "The Ford Mustang Shelby GT500 is a legendary muscle car with blistering performance and iconic styling.",
     image: "/images/fordmustang.jpg",
-    category: "Muscle",
+    category: "sport",
   },
   {
     id: 35,
@@ -453,7 +453,7 @@ const carsData = [
     description:
       "The Chevrolet Corvette Z06 is a high-performance sports car that offers incredible performance and value.",
     image: "/images/cheverolet3.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 36,
@@ -466,7 +466,7 @@ const carsData = [
     description:
       "The Toyota Supra is a sports car that combines Japanese engineering with exhilarating performance.",
     image: "/images/toyotasupra.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 37,
@@ -479,7 +479,7 @@ const carsData = [
     description:
       "The Nissan GT-R Nismo is a high-performance sports car known for its impressive speed and handling.",
     image: "/images/nisangtr.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 38,
@@ -492,7 +492,7 @@ const carsData = [
     description:
       "The Maserati MC20 is a mid-engine sports car that embodies Italian elegance and performance.",
     image: "/images/maserati.jpg",
-    category: "Sports",
+    category: "sport",
   },
   {
     id: 39,
@@ -505,7 +505,7 @@ const carsData = [
     description:
       "The Pagani Huayra Roadster BC is an ultra-exclusive hypercar with breathtaking design and performance.",
     image: "/images/pagani.jpg",
-    category: "Hypercar",
+    category: "sport",
   },
   {
     id: 40,
@@ -518,7 +518,7 @@ const carsData = [
     description:
       "The Koenigsegg Jesko Absolut is a hypercar engineered for ultimate speed and performance.",
     image: "/images/koenigsegg.jpg",
-    category: "Hypercar",
+    category: "sport",
   },
   {
     id: 41,
@@ -531,7 +531,7 @@ const carsData = [
     description:
       "The Bentley Continental GT is a grand tourer that combines opulent luxury with exhilarating performance.",
     image: "/images/bentley.jpg",
-    category: "Grand Tourer",
+    category: "sport",
   },
   {
     id: 42,
@@ -544,7 +544,7 @@ const carsData = [
     description:
       "The Pride SE is a popular compact car manufactured in Iran known for its affordability and reliability.",
     image: "/images/peraid.jpg",
-    category: "Compact",
+    category: "sedan",
   },
   {
     id: 43,
@@ -557,7 +557,7 @@ const carsData = [
     description:
       "The Samand Sarir is a mid-size sedan produced in Iran, offering spaciousness and comfort for its passengers.",
     image: "/images/samand.jpg",
-    category: "Mid-size",
+    category: "sedan",
   },
   {
     id: 44,
@@ -570,7 +570,7 @@ const carsData = [
     description:
       "The Tiba Sedan is a compact car designed and manufactured in Iran, known for its fuel efficiency and affordability.",
     image: "/images/tiba.jpg",
-    category: "Compact",
+    category: "hatchback",
   },
   {
     id: 45,
@@ -583,7 +583,7 @@ const carsData = [
     description:
       "The Runna Sedan is a compact car produced in Iran, offering modern features and practicality for urban driving.",
     image: "/images/runa.jpg",
-    category: "Compact",
+    category: "sedan",
   },
   {
     id: 46,
@@ -596,7 +596,7 @@ const carsData = [
     description:
       "The Dena Plus is a mid-size sedan manufactured in Iran, known for its comfortable ride and reliable performance.",
     image: "/images/dena.jpg",
-    category: "Mid-size",
+    category: "sedan",
   },
   {
     id: 47,
@@ -609,7 +609,7 @@ const carsData = [
     description:
       "The Peugeot 405 GLX is a popular sedan produced in Iran under license from Peugeot, known for its durability and comfort.",
     image: "/images/405.jpg",
-    category: "Sedan",
+    category: "sedan",
   },
   {
     id: 48,
@@ -622,7 +622,7 @@ const carsData = [
     description:
       "The Peugeot Pars SE is a compact car manufactured in Iran based on the Peugeot 206 platform, offering reliability and fuel efficiency.",
     image: "/images/pars.jpg",
-    category: "Compact",
+    category: "sedan",
   },
   {
     id: 49,
@@ -635,7 +635,7 @@ const carsData = [
     description:
       "The Peugeot 206 SD XT is a sedan version of the popular Peugeot 206, produced in Iran with a focus on practicality and affordability.",
     image: "/images/206sd.jpg",
-    category: "Sedan",
+    category: "sedan",
   },
   {
     id: 50,
@@ -648,7 +648,7 @@ const carsData = [
     description:
       "The Toyota Prius is a popular hybrid car known for its fuel efficiency. It offers a comfortable ride and spacious interior.",
     image: "/images/toyota.jpg",
-    category: "Hybrid",
+    category: "hybrid",
   },
 ];
 
