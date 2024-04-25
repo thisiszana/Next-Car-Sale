@@ -11,7 +11,7 @@ function Layout({ children }) {
           <p>Choose an Buy your car</p>
         </Link>
       </header>
-      <div>{children}</div>
+      <div className={styles.main}>{children}</div>
       <footer className={styles.footer}>
         Next.js project | ZedCar Site &copy;
       </footer>
